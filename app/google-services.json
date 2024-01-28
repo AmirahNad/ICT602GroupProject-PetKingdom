@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "22649467856",
+    "project_id": "petkingdom-7ff52",
+    "storage_bucket": "petkingdom-7ff52.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22649467856:android:93e6264c05744ced4d3fd5",
+        "android_client_info": {
+          "package_name": "com.example.petkingdom"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnqT0i8k0ojCyHRpH9pbqsIBa2sEK77jI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

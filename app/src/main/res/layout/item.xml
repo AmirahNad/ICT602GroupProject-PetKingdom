@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- item.xml -->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/ImageViewItem"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/cat_ayam" />
+
+    <TextView
+        android:id="@+id/TextViewItem"
+        android:layout_width="241dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="5dp"
+        android:layout_toEndOf="@+id/ImageViewItem"
+        android:fontFamily="@font/andika"
+        android:text="Item Title"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewQuantity"
+        android:layout_width="246dp"
+        android:layout_height="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toEndOf="@+id/ImageViewItem"
+        android:fontFamily="@font/andika"
+        android:text="Quantity:"
+        android:textColor="#000000"
+        android:textSize="18dip"></TextView>
+
+</RelativeLayout>
